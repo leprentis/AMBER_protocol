@@ -6,3 +6,4 @@ trajin stripfit3.trj
 
 rmsd rms1 first ":145&!(@H=)" nofit mass out sim3.dat time .005
 symmrmsd rms2 first ":145&!(@H=)" nofit mass out symsim3.dat time .005
+rmsd rms3 first ":1-144@CA" nofit mass out sim3_nofit_rec.dat time .005
